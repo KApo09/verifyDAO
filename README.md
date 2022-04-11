@@ -21,9 +21,25 @@ The smart contract and Hardhat node part of this project were created by install
 
 Pull this project down from GitHub, cd into the project directory and run the following commands to get setup and running.
 
+# install yarn
 ```shell
-yarn
-yarn compile
+npm install --global yarn
+```
+# clone the example code repo
+```shell
+git clone https://github.com/ChainShot/hardhat-ethers-react-ts-starter.git
+cd hardhat-ethers-react-ts-starter
+```
+# install the project's dependencies
+```shell
+yarn && cd frontend && yarn && cd ..
+```
+# compile the smart contracts
+```shell
+yarn hardhat compile
+```
+# start your local Ethereum blockchain
+```shell
 yarn hardhat node
 ```
 
